@@ -1,5 +1,7 @@
 import { orders, addOrder, updateOrderStatus, calculateTotalRevenue, deleteOrder } from './orders.js';
 
+console.log(addOrder.items)
+
 addOrder('Alice', [
   { name: 'Nasi Goreng', price: 20000 },
   { name: 'Teh Manis', price: 5000 }
@@ -13,7 +15,7 @@ addOrder('Bob', [
 console.log(orders);
 
 /**
- * Output yang diharapkan:
+ * Output  yang diharapkan:
  * [
  *   {
  *     id: '_someUniqueId1',
